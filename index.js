@@ -11,11 +11,11 @@ class BoardMember {
     this.approve(){
       return 'You can do that!'
     }
-    this.doCharity = function(){
+    this.doCharity(){
       return "I like to help people."
     }
 
-    BoardMember.prototype.releasePressStatement = function(){
+    this.releasePressStatement(){
       return "You will see great things from Scuber."
     }
 
