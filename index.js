@@ -5,10 +5,10 @@ class BoardMember {
     this.training = training
 
 
-    BoardMember.prototype.veto = function(){
+    this.veto(){
       return 'No, I must disagree'
     }
-    BoardMember.prototype.approve = function(){
+    this.approve(){
       return 'You can do that!'
     }
     BoardMember.prototype.doCharity = function(){
