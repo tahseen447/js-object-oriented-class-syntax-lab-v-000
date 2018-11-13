@@ -11,7 +11,7 @@ class BoardMember {
     this.approve(){
       return 'You can do that!'
     }
-    BoardMember.prototype.doCharity = function(){
+    this.doCharity = function(){
       return "I like to help people."
     }
 
